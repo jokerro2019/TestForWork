@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 770px;
+    margin: 0 auto;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    background-color: #5dbdb1;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.7s;
+}
+
+.btn:hover {
+    border-radius: 50%;
+    background-color: white;
+    color: #5dbdb1;
+}
+
+.footer {
+    text-align: center;
+    &__text {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        color: white;
+        margin-bottom: 15px;
+    }
+}
+.border {
+    margin-bottom: 25px;
+}
+  
